@@ -1,0 +1,17 @@
+Time Complexity of a loop is said as O(log N) if the loop variables is 
+divided / multiplied by a constant amount. loop runs Log (n) times because 
+of i *= 2 in the for-loop
+ex:binary search algorithm  ( divide and conquere)
+
+🚩️SHORT TRICK TO FIND IF A NUMBER CONTAINS ODD/EVEN NO OF DIGITS : log(number)+1 
+EX: 342 = 3 DIGITS WHICH IS ODD , log(342)+1 = 2+1 =3
+
+🚩️ Divide and conquer
+int mid=(start+end)/2  ---> (start+end)/2 may exceeds the integer limit in case of huge array
+so we should use : start+(end-start)/2
+USE LONG KEYWORD TO AVOID TLE DURING BINARY SEARCH OR NAY OTHER
+
+🚩️ Interpolation search algorithm formula: low + ( x - element[low]/ element[high]-element[low] ) * (high - low)
+for interpolation array should be uniform and sorted
+
+🚩️(p + m - 1) / m equal to ceil(p / m)
